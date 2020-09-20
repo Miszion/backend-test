@@ -1,4 +1,4 @@
-# Backend Test- Restaurant Backend
+# Backend Test- Restaurant
 
 ## Description
 
