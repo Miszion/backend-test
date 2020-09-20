@@ -10,4 +10,4 @@ For this project, a database url with appropriate login information is needed. P
 
 1. Make sure you have node installed on your local machine.
 2. run `node server.js` to host the API on your localhost.
-
+3. This code can be used in combination with the restaurant-vote-frontend repo located at https://github.com/Miszion/restaurant-vote-frontend
