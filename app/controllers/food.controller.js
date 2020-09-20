@@ -42,7 +42,6 @@ exports.incrementNumVotes = (req, res) => {
 
 exports.getNumVotes = (req, res) => {
     Food.getVotes(req.params.id, (err, data) => {
-        console.log(req.params)
         if (err) {
             if (err.kind == 'not_found') {
                 res.status(404).send({

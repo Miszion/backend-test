@@ -11,10 +11,6 @@ Food.getFoodInfo = result => {
             result(null, err)
             return;
         }
-        
-        for (var i in res) {
-            console.log(res[i].name)
-        }
         return result(null, res)
     });
 
